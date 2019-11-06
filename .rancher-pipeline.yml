@@ -8,11 +8,6 @@ stages:
       branch:
         include:
         - dev
-  when:
-    branch:
-      include:
-      - dev
-      - master
 - name: Publish
   steps:
   - publishImageConfig:
